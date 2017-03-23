@@ -18,6 +18,9 @@ git = "https://github.com/gtk-rs/gdk"
 [dependencies.gtk]
 git = "https://github.com/gtk-rs/gtk"
 
+[dependencies.url]
+version = "1.0"
+
 [features]
 #default = ["gtk_3_20"]
 gtk_3_10 = ["gtk/v3_10"]
@@ -36,6 +39,12 @@ name = "cairotest"
 
 [[bin]]
 name = "cairo_threads"
+
+[[bin]]
+name = "drag_and_drop"
+
+[[bin]]
+name = "drag_and_drop_textview"
 
 [[bin]]
 name = "grid"
